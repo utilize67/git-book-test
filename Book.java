@@ -14,4 +14,7 @@ Class Book{
 public boolean containsTitle(String keyword) {
         return title.contains(keyword);
         }
+public String getInfo() {
+        return id + ":" + title;
+        }
 }

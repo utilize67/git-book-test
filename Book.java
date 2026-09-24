@@ -17,4 +17,7 @@ public boolean containsTitle(String keyword) {
 public String getInfo() {
         return id + ":" + title;
         }
+public boolean hasId(String targetId) {
+        return id.equals(targetId);
+        }
 }
